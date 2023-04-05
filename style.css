@@ -81,7 +81,9 @@ body {
   flex-direction: column;
   margin: 20px 0;
 }
-
+.bold{
+  font-weight: 500;
+}
 .seventysix {
   font-weight: 700;
   font-size: 69px;
@@ -113,6 +115,7 @@ body {
 .left-title {
   font-weight: 700;
   color: var(--button-color);
+  font-size:21px;
 }
 
 .btn--item {
@@ -126,7 +129,18 @@ body {
   justify-content: space-between;
   gap: 10px;
 }
-
+.light-red{
+  color:var(--reaction);
+}
+.orangey-yellow{
+  color:var(--memory);
+}
+.green-teal{
+  color: var(--verbal);
+}
+.cobalt-blue{
+  color: var(--visual);
+}
 .item-1 {
   background-color: hsla(0, 100%, 67%, 4%);
 }
@@ -176,7 +190,12 @@ button {
   .title {
     font-size: 24px;
   }
-
+  .total{
+    color: var(--light-gray);
+  }
+  .btn--score{
+    font-weight: 500;
+  }
   .score-title {
     font-size: 31px;
     font-weight: 700;
